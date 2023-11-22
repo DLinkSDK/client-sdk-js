@@ -12,7 +12,7 @@ Register an account at https://console.dlink.cloud.  After creating an app on th
 
 **Step 2:** Integrate the SDK and complete event reporting
 
-JS-SDK: https://jssdk.deeplink.dev/sdk/1.5.6/deeplink.min.js
+JS-SDK: https://jssdk.deeplink.dev/sdk/1.7.2/deeplink.min.js
 
 **Step 3:** Integration Example
 
@@ -30,7 +30,7 @@ JS-SDK: https://jssdk.deeplink.dev/sdk/1.5.6/deeplink.min.js
         r.src = n;
         var u = t.getElementsByTagName(s)[0];
         u.parentNode.insertBefore(r, u);
-    })(window, document, 'https://jssdk.deeplink.dev/sdk/1.5.6/deeplink.min.js');
+    })(window, document, 'https://jssdk.deeplink.dev/sdk/1.7.2/deeplink.min.js');
 
     deeplink('init', {
         appid: '{Account ID}',
