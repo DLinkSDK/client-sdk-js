@@ -39,6 +39,7 @@ JS-SDK: https://jssdk.deeplink.dev/sdk/2.0.1/deeplink.min.js
     // reporting events
     deeplink('track', 'PageView');
     deeplink('track', 'ButtonClick');
+    // JumpToTarget
     deeplink('track', 'JumpToTarget');
 </script>
 
