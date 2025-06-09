@@ -30,7 +30,7 @@ JS-SDK: https://jssdk.deeplink.dev/sdk/2.2.1/deeplink.min.js
         r.src = n;
         var u = t.getElementsByTagName(s)[0];
         u.parentNode.insertBefore(r, u);
-    })(window, document, 'https://jssdk.deeplink.dev/sdk/2.1.1/deeplink.min.js');
+    })(window, document, 'https://jssdk.deeplink.dev/sdk/2.2.1/deeplink.min.js');
 
     deeplink('init', {
         appid: '{Account ID}',
