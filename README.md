@@ -72,7 +72,7 @@ JS-SDK: https://jssdk.deeplink.dev/sdk/2.2.1/deeplink.min.js
 
 **Step 1:** Download sw.js file
 
- sw.js：`https://jssdk.deeplink.dev/sdk/2.1.1/sw.js`
+ sw.js：`https://jssdk.deeplink.dev/sdk/2.2.1/sw.js`
 
 **Step 2:** Integration Example
 
