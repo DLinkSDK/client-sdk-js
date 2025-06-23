@@ -12,7 +12,7 @@ Register an account at https://console.dlink.cloud.  After creating an app on th
 
 **Step 2:** Integrate the SDK and complete event reporting
 
-JS-SDK: https://jssdk.deeplink.dev/sdk/2.2.1/deeplink.min.js
+JS-SDK: https://jssdk.deeplink.dev/sdk/2.2.6/deeplink.min.js
 
 **Step 3:** Integration Example
 
@@ -30,7 +30,7 @@ JS-SDK: https://jssdk.deeplink.dev/sdk/2.2.1/deeplink.min.js
         r.src = n;
         var u = t.getElementsByTagName(s)[0];
         u.parentNode.insertBefore(r, u);
-    })(window, document, 'https://jssdk.deeplink.dev/sdk/2.2.1/deeplink.min.js');
+    })(window, document, 'https://jssdk.deeplink.dev/sdk/2.2.6/deeplink.min.js');
 
     deeplink('init', {
         appid: '{Account ID}',
@@ -46,10 +46,9 @@ JS-SDK: https://jssdk.deeplink.dev/sdk/2.2.1/deeplink.min.js
             //contentId:"123654"
         }
     });
-    // ButtonClick
-    deeplink('track', 'ButtonClick');
-    // JumpToTarget
-    deeplink('track', 'JumpToTarget',{
+  
+    // ClickToJump
+    deeplink('track', 'ClickToJump',{
         deeplinkOpt: {
             // App Store Custom Product Page ID. The ID appended to the link url or redirect URL letting Apple knows which product page to redirect users to.
             // https://developer.apple.com/app-store/custom-product-pages/
@@ -72,7 +71,7 @@ JS-SDK: https://jssdk.deeplink.dev/sdk/2.2.1/deeplink.min.js
 
 **Step 1:** Download sw.js file
 
- sw.js：`https://jssdk.deeplink.dev/sdk/2.2.1/sw.js`
+ sw.js：`https://jssdk.deeplink.dev/sdk/2.2.6/sw.js`
 
 **Step 2:** Integration Example
 
