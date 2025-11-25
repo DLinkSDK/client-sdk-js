@@ -37,6 +37,8 @@ JS-SDK: https://jssdk.deeplink.dev/sdk/2.2.6/deeplink.min.js
         utmCode: '{utmCode}'
        // pixelCode: '{defultPixelCode}',
        // utmSource:'{defultUtmSource}',
+       // contentId is highly recommended to be set for model usage optimization.
+       contentId: '1234567' 
     });
 
     // reporting events
@@ -57,7 +59,7 @@ JS-SDK: https://jssdk.deeplink.dev/sdk/2.2.6/deeplink.min.js
         },
         urlParams:{
          // URL parameters
-          //contentId: "123654"
+
         }
     });
 </script>
