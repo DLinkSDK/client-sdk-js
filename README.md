@@ -34,7 +34,7 @@ JS-SDK: https://jssdk.deeplink.dev/sdk/2.2.6/deeplink.min.js
 
     deeplink('init', {
         appid: '{Account ID}',
-        utmCode: '{utmCode}'
+        utmCode: '{utmCode}',
        // pixelCode: '{defultPixelCode}',
        // utmSource:'{defultUtmSource}',
        // contentId is highly recommended to be set for model usage optimization.
